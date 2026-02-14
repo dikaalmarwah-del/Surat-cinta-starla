@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💌 Surat Cinta Untukmu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Bagian Surat Cinta -->
+        <div class="section love-letter" id="loveLetter">
+            <div class="envelope">
+                <h1>💌 Surat Cinta Untukmu</h1>
+                <div class="letter-content">
+                    <p id="letterText"></p>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <p class="reading-time" id="readingTime">Harap baca surat ini dengan seksama...</p>
+                <button class="btn btn-accept" id="acceptBtn" disabled>
+                    ❤️ Aku Terima
+                </button>
+            </div>
+        </div>
+
+        <!-- Bagian Kisah Hidup -->
+        <div class="section story-section" id="storySection" style="display: none;">
+            <div class="story-container">
+                <h2>📖 Kisah Hidupku Untukmu</h2>
+                <div class="story-content" id="storyContent"></div>
+                <button class="btn btn-back" id="backBtn">← Kembali</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
